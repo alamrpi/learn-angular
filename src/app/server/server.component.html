@@ -1,0 +1,4 @@
+<div class="alert alert-danger">
+  <input type="text" class="form-control" [(ngModel)]="userName">
+  <button class="btn btn-sm" [disabled]="userName === ''" (click)="submitUser()">Submit</button>
+</div>
